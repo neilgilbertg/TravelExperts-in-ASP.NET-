@@ -1,0 +1,157 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="travelWebsite.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styling/bootstrap.min.css" rel="stylesheet" />
+    <script src="styling/jquery.min.js"></script>
+    <script src="styling/popper.min.js"></script>
+    <script src="styling/bootstrap.min.js"></script>
+    <link href="styling/SiteMaster.css" rel="stylesheet" />
+    <style>
+        .bodyStyle {
+            position: relative;
+            width: 100%;
+        }
+        .footerStyle {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+        .bannerImage { 
+            background-image: url("images/banner.png"); 
+            background-repeat: no-repeat;
+            background-size: cover;  
+            background-position: center center;
+            color: bisque;
+        }
+        #pictureItem1 {
+            background-image: url("images/package.jpg"); 
+        }
+        #pictureItem2 {
+            background-image: url("images/flight.jpg"); 
+            filter: grayscale(100%);
+        }
+        #pictureItem3 {
+            background-image: url("images/rental.jpg"); 
+            filter: grayscale(100%);
+        }
+        #pictureItem4 {
+            background-image: url("images/hotel.jpg"); 
+            filter: grayscale(100%);
+        }
+        .itemTile {
+            background-repeat: no-repeat;
+            background-size: cover;  
+            background-position: center center;
+            float:left;
+            width: 310px;
+            height: 250px;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        <title>MasterPage</title>
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" class="form-horizontal" runat="server">
+        <div class="jumbotron-fluid">
+            
+            <header>
+                <!--Header Section section-->
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top bannerImage">
+                    <a class="navbar-brand"><h3>Travel Experts</h3></a>
+                </nav>
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+                    <a class="navbar-brand"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent,#navbarSupportedContent2" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse w-100 order-1 order-md-0" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item"><a class="nav-link" href="Homepage.aspx"> HOME</a></li>
+                            <li class="nav-item"><a class="nav-link" data-toggle="collapse" data-target="#bookOptions"> BOOK NOW </a></li>
+                            <li class="nav-item"><a class="nav-link" href="AboutUs.aspx"> ABOUT US </a></li>
+                        </ul>
+                    </div>
+                    <div class="navbar-collapse collapse w-100 order-3" id="navbarSupportedContent2">
+                        <div class="dropdown ml-auto">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" id="accountBtn" runat="server" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <asp:Label ID="accountLabel" runat="server" Text="ACCOUNT"></asp:Label>
+                                    </a>
+                                    <div id="acctDropDown" runat="server" class="dropdown-menu dropdown-menu-right" aria-labelledby="accountBtn">
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <nav class="navbar-expand-lg navbar-dark bg-dark sticky-top menuItems"> <!--navbar-expand-lg navbar-dark bg-dark sticky-top menuItems-->
+                    <div class="collapse w-100 order-1 order-md-0 scrolling-wrapper" id="bookOptions">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a href="Packages.aspx">
+                                <div id="pictureItem1" class="nav-link itemTile card">
+                                    PACKAGE
+                                </div>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="FlightSearch.aspx">
+                                <div id="pictureItem2" class="nav-link itemTile card">
+                                    FLIGHT
+                                </div>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">
+                                <div id="pictureItem3" class="nav-link itemTile card">
+                                    CAR RENTAL
+                                </div>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">
+                                <div id="pictureItem4" class="nav-link itemTile card">
+                                    HOTEL RESERVATION
+                                </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+
+            <main>
+                <!--Mainbody section section-->
+                <asp:ContentPlaceHolder ID="BodyPlaceHolder" runat="server">
+                </asp:ContentPlaceHolder>
+            </main>
+            
+
+            <footer>
+                <!--Footer section-->
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-bottom ">
+                <div class="navbar w-100 order-1 order-md-0">
+                     <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                           <a class="nav-link">
+                             <p class="text-light">Travel Experts <asp:Label ID="lblYear" runat="server"></asp:Label> &copy; | All rights reserved.</p>
+                        </a></li>
+                     </ul>
+                </div>
+                <a class="navbar-left"><asp:ImageButton runat="server" CssClass="miniImages" ImageUrl="~/images/facebook.png" /></a>
+                <a class="navbar-left"><asp:ImageButton runat="server" CssClass="miniImages" ImageUrl="~/images/twitter.png" /></a>
+                <a class="navbar-left"><asp:ImageButton runat="server" CssClass="miniImages" ImageUrl="~/images/linkedin.png" /></a>
+                </nav>
+            </footer>
+
+        </div>
+    </form>
+</body>
+</html>

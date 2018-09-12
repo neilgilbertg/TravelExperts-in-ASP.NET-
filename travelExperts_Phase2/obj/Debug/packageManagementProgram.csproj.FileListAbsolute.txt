@@ -1,0 +1,16 @@
+C:\Users\NeilPC-Developer\source\project\TravelExperts(Phase2)\travelExperts_Phase2\obj\Debug\packageManagementProgram.csprojAssemblyReference.cache
+C:\Users\NeilPC-Developer\source\project\TravelExperts(Phase2)\travelExperts_Phase2\obj\Debug\travelExperts_Phase2.ManagementForm.resources
+C:\Users\NeilPC-Developer\source\project\TravelExperts(Phase2)\travelExperts_Phase2\obj\Debug\packageManagementProgram.csproj.GenerateResource.cache
+C:\Users\NeilPC-Developer\source\project\TravelExperts(Phase2)\travelExperts_Phase2\obj\Debug\packageManagementProgram.csproj.CoreCompileInputs.cache
+C:\Users\NeilPC-Developer\source\project\TravelExperts(Phase2)\travelExperts_Phase2\bin\Debug\travelExperts_Phase2.exe.config
+C:\Users\NeilPC-Developer\source\project\TravelExperts(Phase2)\travelExperts_Phase2\bin\Debug\travelExperts_Phase2.exe
+C:\Users\NeilPC-Developer\source\project\TravelExperts(Phase2)\travelExperts_Phase2\bin\Debug\travelExperts_Phase2.pdb
+C:\Users\NeilPC-Developer\source\project\TravelExperts(Phase2)\travelExperts_Phase2\bin\Debug\TravelExpertData.dll
+C:\Users\NeilPC-Developer\source\project\TravelExperts(Phase2)\travelExperts_Phase2\bin\Debug\TravelExpertData.pdb
+C:\Users\NeilPC-Developer\source\project\TravelExperts(Phase2)\travelExperts_Phase2\obj\Debug\packageManagementProgram.csproj.CopyComplete
+C:\Users\NeilPC-Developer\source\project\TravelExperts(Phase2)\travelExperts_Phase2\obj\Debug\travelExperts_Phase2.exe
+C:\Users\NeilPC-Developer\source\project\TravelExperts(Phase2)\travelExperts_Phase2\obj\Debug\travelExperts_Phase2.pdb
+C:\Users\NeilPC-Developer\source\project\TravelExperts(Phase2)\travelExperts_Phase2\obj\Debug\travelExperts_Phase2.UpdatePackage.resources
+C:\Users\NeilPC-Developer\source\project\TravelExperts(Phase2)\travelExperts_Phase2\obj\Debug\travelExperts_Phase2.UpdateProducts.resources
+C:\Users\NeilPC-Developer\source\project\TravelExperts(Phase2)\travelExperts_Phase2\obj\Debug\travelExperts_Phase2.UpdateProductSuppliers.resources
+C:\Users\NeilPC-Developer\source\project\TravelExperts(Phase2)\travelExperts_Phase2\obj\Debug\travelExperts_Phase2.UpdateSuppliers.resources

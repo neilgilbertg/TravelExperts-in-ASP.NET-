@@ -1,0 +1,12 @@
+﻿
+#LoginPanel {
+    width: 97vw;
+    margin: 8px;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+#LoginForm {
+    border-collapse: collapse;
+}

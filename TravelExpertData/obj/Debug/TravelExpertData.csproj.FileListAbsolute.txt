@@ -1,0 +1,6 @@
+C:\Users\NeilPC-Developer\source\project\TravelExperts(Phase2)\TravelExpertData\bin\Debug\TravelExpertData.dll
+C:\Users\NeilPC-Developer\source\project\TravelExperts(Phase2)\TravelExpertData\bin\Debug\TravelExpertData.pdb
+C:\Users\NeilPC-Developer\source\project\TravelExperts(Phase2)\TravelExpertData\obj\Debug\TravelExpertData.csprojAssemblyReference.cache
+C:\Users\NeilPC-Developer\source\project\TravelExperts(Phase2)\TravelExpertData\obj\Debug\TravelExpertData.csproj.CoreCompileInputs.cache
+C:\Users\NeilPC-Developer\source\project\TravelExperts(Phase2)\TravelExpertData\obj\Debug\TravelExpertData.dll
+C:\Users\NeilPC-Developer\source\project\TravelExperts(Phase2)\TravelExpertData\obj\Debug\TravelExpertData.pdb
